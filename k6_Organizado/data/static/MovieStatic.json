@@ -1,0 +1,24 @@
+{
+  "Movies": [
+    {
+        "title": "FilmeTeste1",
+        "description": "filme Teste 1 que crio no Postman para geral",
+        "launchdate": "2025-02-28T17:39:20.646Z",
+        "showtimes": [
+            "2025-02-28",
+            "2025-03-01"
+        ],
+        "_id": "0Lrx4ezsFXUBpxoP"
+    },
+    {
+        "title": "FilmeTeste3",
+        "description": "Segundo filme Teste 3 que crio no Postman",
+        "launchdate": "2025-02-28T17:39:20.646Z",
+        "showtimes": [
+            "2025-02-28",
+            "2025-03-01"
+        ],
+        "_id": "MbhOp1odpLwPmKdX"
+    }
+  ]
+}
