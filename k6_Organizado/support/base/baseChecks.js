@@ -35,4 +35,13 @@ export class BaseChecks {
             'request rate is within limit': (r) => r >= rateLimit,
         });
     }
+    
+    checkResponseNotEmpty(response) {
+
+        return check(response, {
+            'Verificação de que a resposta não está vazia': (r) => r.body.length > 0
+        });
+        
+    }
+
 }
